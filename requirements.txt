@@ -1,4 +1,5 @@
-huggingface_hub
-python-dotenv
+streamlit
+pandas
+ollama
 pydantic
 pytest
