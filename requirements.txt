@@ -1,5 +1,8 @@
 streamlit
 pandas
 ollama
+huggingface_hub
 pydantic
 pytest
+python-dotenv
+groq
