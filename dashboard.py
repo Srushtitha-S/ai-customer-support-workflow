@@ -29,7 +29,7 @@ if submitted:
     else:
         with st.spinner("AI is analyzing the ticket..."):
             try:
-                result = process_ticket(message.strip())
+                result, status = process_ticket(message.strip())
                 st.success("Ticket processed successfully")
 
                 col1, col2, col3 = st.columns(3)
